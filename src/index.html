@@ -21,8 +21,19 @@
         <a href="#testimonial">Testimonial</a>
         <a href="#contact">Contact Us</a>
       </nav>
-      <div class="md:hidden">
+      <!-- Hamburger -->
+      <div class="md:hidden relative z-10">
         <img id="hamburger" src="./assets/icons/hamburger.svg" alt="hamburger">
+      </div>
+
+      <!-- Mobile Links -->
+      <div id="link-container" class="hidden absolute h-60 w-50 bg-gray-800 right-0 flex items-center flex-col justify-end gap-3 z-1 mt-50 rounded-xl">
+
+        <a class="bg-gray-600 w-full text-center p-0.5" href="#">Home</a>
+        <a class="bg-gray-600 w-full text-center p-0.5" href="#how-it-works">How It Works?</a>
+        <a class="bg-gray-600 w-full text-center p-0.5" href="#about">About</a>
+        <a class="bg-gray-600 w-full text-center p-0.5" href="#testimonial">Testimonial</a>
+        <a class="bg-gray-600 w-full text-center p-0.5 rounded-b-xl" href="#contact">Contact Us</a>
       </div>
     </header>
 
