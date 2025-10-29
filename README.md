@@ -5,6 +5,11 @@ This project is designed to showcase an elegant front-end design using Tailwind 
 
 ---
 
+## Live Preview
+
+## Screenshot
+![](./src/assets/screenshot.png)
+
 ## 🚀 Features
 
 - 🪶 **Tailwind CSS Utility Classes** — Fast, consistent styling without writing custom CSS.  
